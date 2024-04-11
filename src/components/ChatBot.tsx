@@ -100,8 +100,8 @@ const ChatBot = () => {
                         <input type="text" className='outline-none text-sm text-black placeholder:text-sm px-3' placeholder='Type your message' />
                         <img src="/images/clip.svg" alt="" className='w-4 mr-1.5 cursor-pointer' />
                     </div>
-                    <button className='px-6 py-2.5 bg-[#4C82EF] rounded-lg'>
-                        <img src="/images/btnArrow.svg" className='w-2.5' alt="" />
+                    <button className='px-7 bg-[#4C82EF] rounded-lg h-9'>
+                        <img src="/images/btnArrow.svg" className='w-3' alt="" />
                     </button>
                 </div>
                 <div className='flex items-center justify-center gap-1 text-sm pt-2 pb-1'>
