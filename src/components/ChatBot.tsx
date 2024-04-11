@@ -101,7 +101,7 @@ const ChatBot = () => {
                         <img src="/images/clip.svg" alt="" className='w-4 mr-1.5 cursor-pointer' />
                     </div>
                     <button className='px-6 py-2.5 bg-[#4C82EF] rounded-lg'>
-                        <img src="/images/btnArrow.svg" alt="" />
+                        <img src="/images/btnArrow.svg" className='w-3' alt="" />
                     </button>
                 </div>
                 <div className='flex items-center justify-center gap-1 text-sm pt-2 pb-1'>
