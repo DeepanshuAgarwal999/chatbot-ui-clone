@@ -41,7 +41,7 @@ const ChatBot = () => {
                 <h1 className='text-[#949494] text-sm mt-5'>Popular tags for handbag</h1>
 
                 <div className='flex items-center justify-between'>
-                    <div className='overflow-hidden mt-2 max-sm:w-[290px]'>
+                    <div className='overflow-x-scroll no-scrollbar mt-2 max-sm:w-[290px]'>
                         <div className='flex items-center gap-2'>
                             {
                                 popularTags.map((text, i) => (
@@ -96,7 +96,7 @@ const ChatBot = () => {
             </main>
             <footer className='bg-[#EFF3FD] text-[#4C82EF] px-2 pt-1 rounded-b-3xl'>
                 <div className='flex items-center justify-between gap-2'>
-                    <div className='flex items-center justify-between py-1.5 px-1 rounded-lg  bg-white w-full'>
+                    <div className='flex items-center justify-between py-1.5 px-1 rounded-lg  bg-white w-[80%]'>
                         <input type="text" className='outline-none text-sm text-black placeholder:text-sm px-3' placeholder='Type your message' />
                         <img src="/images/clip.svg" alt="" className='w-4 mr-1.5 cursor-pointer' />
                     </div>

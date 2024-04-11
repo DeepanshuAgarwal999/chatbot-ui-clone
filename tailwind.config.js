@@ -8,7 +8,8 @@ export default {
         sm: ".813rem",
       },
       screens:{
-        sm:"500px"
+        sm:"500px",
+        xs:"350px"
       }
     },
   },
