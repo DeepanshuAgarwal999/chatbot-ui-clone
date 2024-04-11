@@ -96,12 +96,12 @@ const ChatBot = () => {
             </main>
             <footer className='bg-[#EFF3FD] text-[#4C82EF] px-2 pt-1 rounded-b-3xl'>
                 <div className='flex items-center justify-between gap-2'>
-                    <div className='flex items-center justify-between py-1.5 px-1 rounded-lg  bg-white w-[80%]'>
+                    <div className='flex items-center justify-between py-2 px-1 rounded-lg  bg-white w-[80%]'>
                         <input type="text" className='outline-none text-sm text-black placeholder:text-sm px-3' placeholder='Type your message' />
                         <img src="/images/clip.svg" alt="" className='w-4 mr-1.5 cursor-pointer' />
                     </div>
                     <button className='px-6 py-2.5 bg-[#4C82EF] rounded-lg'>
-                        <img src="/images/btnArrow.svg" className='w-3' alt="" />
+                        <img src="/images/btnArrow.svg" className='w-2.5' alt="" />
                     </button>
                 </div>
                 <div className='flex items-center justify-center gap-1 text-sm pt-2 pb-1'>
