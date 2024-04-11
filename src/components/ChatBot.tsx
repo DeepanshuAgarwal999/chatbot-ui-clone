@@ -6,7 +6,7 @@ import FilterTags from './FilterTags'
 const ChatBot = () => {
     const [active, setActive] = useState<number>(0);
     return (
-        <div className='w-[360px] rounded-3xl p-2 bg-white text-[#333333] overflow-y-auto max-sm:w-full '>
+        <div className='w-[360px] rounded-3xl p-2 bg-white text-[#333333] overflow-y-auto'>
             <header className='flex justify-between items-center gap-4 rounded-t-3xl bg-[#EFF3FD] text-[#4C82EF] px-4 py-3'>
                 <div className='flex items-center gap-2 w-full'>
                     <img src="/images/bot.svg" alt="" />
@@ -26,7 +26,7 @@ const ChatBot = () => {
                 </div>
 
             </header>
-            <main className='mt-1 pt-10 pb-8 px-4 h-[calc(100vh-180px)] overflow-y-scroll no-scrollbar'>
+            <main className=' pt-10 pb-8 px-4 h-[calc(100vh-180px)] overflow-y-scroll no-scrollbar'>
                 <div className='flex flex-col'>
                     <div className='bg-gradient-to-r from-[#E5EEFF] to-[#E5EEFF66] w-[230px] py-2 px-3 pr-5 rounded-2xl '>
                         <p className='text-sm'>Hi Sam! I am your personal shopping assistant , how can i help you today ?</p>
@@ -40,7 +40,7 @@ const ChatBot = () => {
 
                 <h1 className='text-[#949494] text-sm mt-5'>Popular tags for handbag</h1>
 
-                <div className='flex items-center sm:justify-between'>
+                <div className='flex items-center justify-between'>
                     <div className='overflow-hidden mt-2 max-sm:w-[290px]'>
                         <div className='flex items-center gap-2'>
                             {
