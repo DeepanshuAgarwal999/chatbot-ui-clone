@@ -7,6 +7,9 @@ export default {
         default: "13px",
         sm: ".813rem",
       },
+      screens:{
+        sm:"500px"
+      }
     },
   },
   plugins: [],
